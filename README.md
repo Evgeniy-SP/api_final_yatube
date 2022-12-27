@@ -88,7 +88,7 @@ python manage.py runserver
 
 ##### Ресурсы:
 
-### Документаия проекта
+# Документаия проекта
 http://127.0.0.1:8000/redoc/
-### ПО для тестирования API, Postman
+# ПО для тестирования API, Postman
 https://www.postman.com/
