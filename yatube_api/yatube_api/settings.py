@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'djoser',
     'api',
     'posts',
-    ]
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
