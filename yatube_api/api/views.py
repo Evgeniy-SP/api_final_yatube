@@ -1,4 +1,3 @@
-from django_filters.rest_framework import DjangoFilterBackend
 from django.shortcuts import get_object_or_404
 from rest_framework import viewsets
 from rest_framework.filters import SearchFilter
@@ -23,8 +22,6 @@ class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
     pagination_class = LimitOffsetPagination
-    filter_backends = (DjangoFilterBackend,)
-    filterset_fields = ('group',)
     permission_classes = (IsAuthorOrReadOnly, IsAuthenticatedOrReadOnly)
 
     def perform_create(self, serializer):
