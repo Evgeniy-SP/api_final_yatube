@@ -93,4 +93,7 @@ python manage.py runserver
 http://127.0.0.1:8000/redoc/
 #### ПО для тестирования API, Postman
 https://www.postman.com/
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2685204b8789513c8453dc1af9831c861b2fee71
